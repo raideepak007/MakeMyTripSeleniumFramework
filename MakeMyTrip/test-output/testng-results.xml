@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-20T14:16:47 IST" name="Default suite" finished-at="2021-01-20T14:19:59 IST" duration-ms="192711">
+    <groups>
+    </groups>
+    <test started-at="2021-01-20T14:16:47 IST" name="Default test" finished-at="2021-01-20T14:19:59 IST" duration-ms="192711">
+      <class name="test.testTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.testTest@1613674b]" started-at="2021-01-20T14:16:46 IST" name="setup" finished-at="2021-01-20T14:16:47 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:test.testTest@1613674b]" started-at="2021-01-20T14:16:47 IST" name="setupTest" finished-at="2021-01-20T14:17:01 IST" duration-ms="14049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="searchTour(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.testTest@1613674b]" started-at="2021-01-20T14:17:02 IST" name="searchTour" data-provider="testdata1" finished-at="2021-01-20T14:17:16 IST" duration-ms="13743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NDLS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GKP]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Third AC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTour -->
+        <test-method signature="searchTour(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.testTest@1613674b]" started-at="2021-01-20T14:17:16 IST" name="searchTour" data-provider="testdata1" finished-at="2021-01-20T14:17:31 IST" duration-ms="15814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KYN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PUNE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Second AC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTour -->
+        <test-method signature="searchTour(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.testTest@1613674b]" started-at="2021-01-20T14:17:32 IST" name="searchTour" data-provider="testdata1" finished-at="2021-01-20T14:17:48 IST" duration-ms="16879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GKP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[First AC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTour -->
+        <test-method signature="searchTour(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.testTest@1613674b]" started-at="2021-01-20T14:17:48 IST" name="searchTour" data-provider="testdata1" finished-at="2021-01-20T14:18:02 IST" duration-ms="13672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PUNE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SCH]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sleeper Class]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTour -->
+        <test-method signature="searchPnr(java.lang.String)[pri:2, instance:test.testTest@1613674b]" started-at="2021-01-20T14:18:02 IST" name="searchPnr" data-provider="testdata2" finished-at="2021-01-20T14:18:10 IST" duration-ms="8251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["1245634768"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPnr -->
+        <test-method signature="searchPnr(java.lang.String)[pri:2, instance:test.testTest@1613674b]" started-at="2021-01-20T14:18:11 IST" name="searchPnr" data-provider="testdata2" finished-at="2021-01-20T14:18:16 IST" duration-ms="5592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["5643879890"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPnr -->
+        <test-method signature="searchPnr(java.lang.String)[pri:2, instance:test.testTest@1613674b]" started-at="2021-01-20T14:18:16 IST" name="searchPnr" data-provider="testdata2" finished-at="2021-01-20T14:18:21 IST" duration-ms="4493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["6528910852"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPnr -->
+        <test-method signature="searchPnr(java.lang.String)[pri:2, instance:test.testTest@1613674b]" started-at="2021-01-20T14:18:21 IST" name="searchPnr" data-provider="testdata2" finished-at="2021-01-20T14:18:25 IST" duration-ms="4409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["1287359026"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPnr -->
+        <test-method signature="searchbus(java.lang.String, java.lang.String)[pri:3, instance:test.testTest@1613674b]" started-at="2021-01-20T14:18:25 IST" name="searchbus" data-provider="testdata3" finished-at="2021-01-20T14:18:36 IST" duration-ms="11092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gorakhpur,Uttar Pradesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchbus -->
+        <test-method signature="searchbus(java.lang.String, java.lang.String)[pri:3, instance:test.testTest@1613674b]" started-at="2021-01-20T14:18:36 IST" name="searchbus" data-provider="testdata3" finished-at="2021-01-20T14:18:47 IST" duration-ms="11102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchbus -->
+        <test-method signature="searchbus(java.lang.String, java.lang.String)[pri:3, instance:test.testTest@1613674b]" started-at="2021-01-20T14:18:47 IST" name="searchbus" data-provider="testdata3" finished-at="2021-01-20T14:19:01 IST" duration-ms="14052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gorakhpur,Uttar Pradesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchbus -->
+        <test-method signature="searchbus(java.lang.String, java.lang.String)[pri:3, instance:test.testTest@1613674b]" started-at="2021-01-20T14:19:01 IST" name="searchbus" data-provider="testdata3" finished-at="2021-01-20T14:19:13 IST" duration-ms="11283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kolkata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchbus -->
+        <test-method signature="holidays(java.lang.String, java.lang.String)[pri:4, instance:test.testTest@1613674b]" started-at="2021-01-20T14:19:13 IST" name="holidays" data-provider="testdata4" finished-at="2021-01-20T14:19:24 IST" duration-ms="10941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Punjab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holidays -->
+        <test-method signature="holidays(java.lang.String, java.lang.String)[pri:4, instance:test.testTest@1613674b]" started-at="2021-01-20T14:19:24 IST" name="holidays" data-provider="testdata4" finished-at="2021-01-20T14:19:36 IST" duration-ms="12095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Punjab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holidays -->
+        <test-method signature="holidays(java.lang.String, java.lang.String)[pri:4, instance:test.testTest@1613674b]" started-at="2021-01-20T14:19:36 IST" name="holidays" data-provider="testdata4" finished-at="2021-01-20T14:19:48 IST" duration-ms="11839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holidays -->
+        <test-method signature="holidays(java.lang.String, java.lang.String)[pri:4, instance:test.testTest@1613674b]" started-at="2021-01-20T14:19:48 IST" name="holidays" data-provider="testdata4" finished-at="2021-01-20T14:19:59 IST" duration-ms="11203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Patna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dubai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holidays -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:test.testTest@1613674b]" started-at="2021-01-20T14:19:59 IST" name="tearDownTest" finished-at="2021-01-20T14:19:59 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.testTest@1613674b]" started-at="2021-01-20T14:19:59 IST" name="tearDown" finished-at="2021-01-20T14:20:00 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.testTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
